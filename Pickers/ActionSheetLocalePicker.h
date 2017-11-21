@@ -42,8 +42,8 @@ static const float secondColumnWidth = 160.0f;
  *  @param title             Title label for picker
  *  @param index             is used to establish the initially selected row;
  *  @param target            must not be empty.  It should respond to "onSuccess" actions.
- *  @param successAction     successAction
- *  @param cancelActionOrNil cancelAction
+ *  @param successAction     Success Action
+ *  @param cancelActionOrNil Cancel Action
  *  @param origin            must not be empty.  It can be either an originating container view or a UIBarButtonItem to use with a popover arrow.
  *
  *  @return  return instance of picker
