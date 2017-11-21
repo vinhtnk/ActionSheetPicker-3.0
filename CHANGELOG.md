@@ -1,5 +1,65 @@
 # Change Log
 
+## [2.2.0](https://github.com/skywinder/ActionSheetPicker-3.0/tree/2.2.0) (2016-06-27)
+[Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/2.1.0...2.2.0)
+
+**Implemented enhancements:**
+
+- Change tint color / font color of Done / Cancel buttons [\#54](https://github.com/skywinder/ActionSheetPicker-3.0/issues/54)
+
+**Merged pull requests:**
+
+- add ability to set toolbar buttons color [\#288](https://github.com/skywinder/ActionSheetPicker-3.0/pull/288) ([skywinder](https://github.com/skywinder))
+- Add ability to set toolbar color via toolbarBackgroundColor property [\#287](https://github.com/skywinder/ActionSheetPicker-3.0/pull/287) ([skywinder](https://github.com/skywinder))
+- Add method to set text color: `setTextColor` [\#286](https://github.com/skywinder/ActionSheetPicker-3.0/pull/286) ([skywinder](https://github.com/skywinder))
+- Blur effect readme [\#284](https://github.com/skywinder/ActionSheetPicker-3.0/pull/284) ([nikola-mladenovic](https://github.com/nikola-mladenovic))
+- Adding the ability to disable popover behavior on iPad per picker instance [\#278](https://github.com/skywinder/ActionSheetPicker-3.0/pull/278) ([airdrummingfool](https://github.com/airdrummingfool))
+
+## [2.1.0](https://github.com/skywinder/ActionSheetPicker-3.0/tree/2.1.0) (2016-05-19)
+[Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/2.0.5...2.1.0)
+
+**Closed issues:**
+
+- Import statement outdated on Swift-example [\#261](https://github.com/skywinder/ActionSheetPicker-3.0/issues/261)
+
+**Merged pull requests:**
+
+- This commit resolves \#261 [\#262](https://github.com/skywinder/ActionSheetPicker-3.0/pull/262) ([guillosaracco](https://github.com/guillosaracco))
+- Fixes \#205 Add blur feature for picker background [\#251](https://github.com/skywinder/ActionSheetPicker-3.0/pull/251) ([nikola-mladenovic](https://github.com/nikola-mladenovic))
+
+## [2.0.5](https://github.com/skywinder/ActionSheetPicker-3.0/tree/2.0.5) (2016-02-08)
+[Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/2.0.4...2.0.5)
+
+**Closed issues:**
+
+- Issue in origin [\#245](https://github.com/skywinder/ActionSheetPicker-3.0/issues/245)
+- NSRangeException occurs when I try to fast scroll \(apparently not selecting anything\) and click done [\#229](https://github.com/skywinder/ActionSheetPicker-3.0/issues/229)
+- Picker is duplicated when use showActionSheetPicker [\#224](https://github.com/skywinder/ActionSheetPicker-3.0/issues/224)
+- ActionSheetPickerCustomPickerDelegate [\#214](https://github.com/skywinder/ActionSheetPicker-3.0/issues/214)
+- ActionSheetDatePicker iOS 9 Problems [\#213](https://github.com/skywinder/ActionSheetPicker-3.0/issues/213)
+- Blur instead of semi transparent black overlay [\#205](https://github.com/skywinder/ActionSheetPicker-3.0/issues/205)
+
+**Merged pull requests:**
+
+- Fix Swift Bug RE self.initialSelection in multi-pickers [\#252](https://github.com/skywinder/ActionSheetPicker-3.0/pull/252) ([sschale](https://github.com/sschale))
+
+## [2.0.4](https://github.com/skywinder/ActionSheetPicker-3.0/tree/2.0.4) (2015-12-04)
+[Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/2.0.3...2.0.4)
+
+**Fixed bugs:**
+
+- ActionSheetStringPicker not working on iPad \(only iPhone\) [\#156](https://github.com/skywinder/ActionSheetPicker-3.0/issues/156)
+
+**Closed issues:**
+
+- ActionSheetStringPicker problem with simulator and device iOS9 [\#233](https://github.com/skywinder/ActionSheetPicker-3.0/issues/233)
+- ActionSheetPickerView  Picker View not appearing for iPAD [\#187](https://github.com/skywinder/ActionSheetPicker-3.0/issues/187)
+- Date Picker not aligned well on landscape iPhone 6 Plus [\#129](https://github.com/skywinder/ActionSheetPicker-3.0/issues/129)
+
+**Merged pull requests:**
+
+- Use modern objective c initializer syntax [\#235](https://github.com/skywinder/ActionSheetPicker-3.0/pull/235) ([mamnun](https://github.com/mamnun))
+
 ## [2.0.3](https://github.com/skywinder/ActionSheetPicker-3.0/tree/2.0.3) (2015-10-13)
 [Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/2.0.2...2.0.3)
 
@@ -151,12 +211,16 @@
 
 - Light status bar style [\#119](https://github.com/skywinder/ActionSheetPicker-3.0/issues/119)
 
+**Merged pull requests:**
+
+- Fixes presentation issue on iPads [\#131](https://github.com/skywinder/ActionSheetPicker-3.0/pull/131) ([maciekish](https://github.com/maciekish))
+
 ## [1.3.11](https://github.com/skywinder/ActionSheetPicker-3.0/tree/1.3.11) (2015-01-15)
 [Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/1.3.10...1.3.11)
 
 **Merged pull requests:**
 
-- Fixes a crash while closing when using the Classy framework for styling [\#128](https://github.com/skywinder/ActionSheetPicker-3.0/pull/128) ([sudeepsidhu](https://github.com/sudeepsidhu))
+- Fixes a crash while closing when using the Classy framework for styling [\#128](https://github.com/skywinder/ActionSheetPicker-3.0/pull/128) ([SudeepSidhu](https://github.com/SudeepSidhu))
 
 ## [1.3.10](https://github.com/skywinder/ActionSheetPicker-3.0/tree/1.3.10) (2015-01-09)
 [Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/1.3.9...1.3.10)
@@ -463,7 +527,6 @@
 **Closed issues:**
 
 - Presented in wrong frame when sender is a navbar bar button item [\#23](https://github.com/skywinder/ActionSheetPicker-3.0/issues/23)
-- done button color [\#21](https://github.com/skywinder/ActionSheetPicker-3.0/issues/21)
 
 ## [1.1.2](https://github.com/skywinder/ActionSheetPicker-3.0/tree/1.1.2) (2014-08-15)
 [Full Changelog](https://github.com/skywinder/ActionSheetPicker-3.0/compare/1.1.1...1.1.2)
