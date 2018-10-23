@@ -788,6 +788,9 @@ CG_INLINE BOOL isIPhone4() {
         }
         case TapActionNone:
         case TapActionCancel: {
+            if (!self.popoverDisabled && [MyPopoverController canShowPopover]) {
+                [self dismissPicker];
+            }
             [self notifyTarget:self.target didCancelWithAction:self.cancelAction origin:self.storedOrigin];
             break;
         }
