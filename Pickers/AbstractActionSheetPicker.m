@@ -280,13 +280,14 @@ CG_INLINE BOOL isIPhone4() {
 #pragma ide diagnostic ignored "UnavailableInDeploymentTarget"
     {
         switch (self.tapDismissAction) {
-            case TapActionNone:
+            case TapActionNone: {
                 // add tap outside for dismiss action (iPad Poperview)
                 self.actionSheet.window.userInteractionEnabled = YES;
                 UITapGestureRecognizer *tapAction = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionPickerCancel:)];
                 tapAction.delegate = self;
                 [self.actionSheet.window addGestureRecognizer:tapAction];
                 break;
+            }
             case TapActionSuccess: {
                 // add tap dismiss action
                 self.actionSheet.window.userInteractionEnabled = YES;
